@@ -6,7 +6,7 @@ import (
 	"gorm.io/gorm"
 )
 
-// ประกาศตัวแปร Global ให้คนอื่นใช้ (ตัว D ใหญ่ = Public)
+
 var DB *gorm.DB
 
 func ConnectToDB() {
